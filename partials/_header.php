@@ -10,9 +10,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <li class="nav-item active">
       <a class="nav-link" href="/forum">Home <span class="sr-only">(current)</span></a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="about.php">About</a>
-    </li>
+   
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Top Categories
@@ -25,9 +23,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       }        
       echo '</div>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="contact.php" >Contact</a>
-    </li>
+   
   </ul>
   <div class="row mx-2">';
 if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
